@@ -11,8 +11,8 @@ const styles = {
   space: {
     margin:"5px",
   },
-  black: {
-    color: "black",
+  white: {
+    color: "white",
   }
 }
 
@@ -56,12 +56,12 @@ function Header() {
       </div>
       <div className="media-content">
                 <p className="title is-size-6-mobile"
-                style={styles.black}
+                style={styles.white}
                 >
                     Stephen Thompson
                 </p>
                 <p className="subtitle is-size-7-mobile"
-                style={styles.black}
+                style={styles.white}
                 >
                     Web developer and mathematician
                 </p>

@@ -11,9 +11,13 @@ const styles = {
   right: {
     float: "right",
   },
-  noLine: {
+  noLineBlack: {
     textDecoration: "none",
     color: "black",
+  },
+  noLineWhite: {
+  textDecoration: "none",
+  color: "white",
   }
 }
 
@@ -30,7 +34,7 @@ export default function Home() {
 
     <Link className="tile is-child notification is-primary"
     to="/portfolio"
-    style={styles.noLine}
+    style={styles.noLineWhite}
     >
       <div className="content is-size-6-mobile">
 
@@ -49,7 +53,7 @@ export default function Home() {
       <div className="tile is-parent is-vertical">
         <Link className="tile is-child notification is-warning is-size-6-mobile"
         to="/about"
-        style={styles.noLine}
+        style={styles.noLineBlack}
         >
         <p className="title is-size-6-mobile">About</p>
         <p> Click to read a brief bio and overview of my skills.</p>
@@ -57,7 +61,7 @@ export default function Home() {
 
         <Link className="tile is-child notification is-link is-size-6-mobile"
         to="/contact"
-        style={styles.noLine}
+        style={styles.noLineWhite}
         >
         <p className="title is-size-6-mobile">Contact</p>
         <p> Click to get in touch with me.</p>
@@ -66,7 +70,7 @@ export default function Home() {
       <div className="tile is-parent">
         <Link className="tile is-child notification is-danger is-size-6-mobile"
         to="/resume"
-        style={styles.noLine}
+        style={styles.noLineWhite}
         >
         <p className="title is-size-6-mobile">Resume</p>
         <p> Click to see my education, skills and work history.</p>
@@ -77,7 +81,7 @@ export default function Home() {
     <div className="tile is-parent">
       <Link className="tile is-child notification is-white"
       to="/publications"
-      style={styles.noLine}
+      style={styles.noLineBlack}
       >
 
         <p className="title is-size-7-mobile">Publications</p>
