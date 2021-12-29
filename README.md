@@ -3,7 +3,7 @@
 
   ## Description
 
-  This is my professional portfolio, which includes links to apps I've created, my resume and contact information. This is a Single Page Application, which I build using ReactJS. A link to the deployed application can be found here: https://sthompsonchicago.github.io/react-portfolio/. A link to the GitHub repo can be found here: https://github.com/SThompsonChicago/react-portfolio. 
+  This is my professional portfolio, which includes links to apps I've created, my resume and contact information. It was created using the MERN stack. 
 
   ## Table of Contents
 
