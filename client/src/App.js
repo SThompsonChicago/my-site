@@ -21,6 +21,7 @@ import Portfolio from './components/pages/Portfolio';
 import Resume from './components/pages/Resume';
 import Publications from './components/pages/Publications'
 import Contact from './components/pages/Contact';
+import Blog from './components/pages/Blog';
 
 
 const httpLink = createHttpLink({
@@ -56,6 +57,7 @@ function App() {
                 <Route exact path='/resume' element={<Resume />} />
                 <Route exact path='/publications' element={<Publications />} />
                 <Route exact path='/contact' element={<Contact />} />
+                <Route exact path='/blog' element={<Blog />} />
               </Routes>
             <Footer />
         </div>

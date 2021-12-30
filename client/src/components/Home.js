@@ -51,7 +51,7 @@ export default function Home() {
   <div className="tile is-vertical is-8">
     <div className="tile">
       <div className="tile is-parent is-vertical">
-        <Link className="tile is-child notification is-warning is-size-6-mobile"
+        <Link className="tile is-child notification is-white is-size-6-mobile"
         to="/about"
         style={styles.noLineBlack}
         >
@@ -79,7 +79,7 @@ export default function Home() {
       </div>
     </div>
     <div className="tile is-parent">
-      <Link className="tile is-child notification is-white"
+      <Link className="tile is-child notification is-warning"
       to="/publications"
       style={styles.noLineBlack}
       >
@@ -91,10 +91,36 @@ export default function Home() {
           
         </div>
       </Link>
+      
     </div>
+
+    
+    
+  </div>
+
+  
+  
+</div>
+
+<div class="tile is-ancestor">
+  <div class="tile is-12 is-vertical is-parent">
+  <Link className="tile is-child notification is-white"
+      to="/blog"
+      style={styles.noLineBlack}
+      >
+
+        <p className="title is-size-7-mobile">Blog</p>
+        <p> Click to see short posts about projects I've worked on.</p>
+
+        <div className="content">
+          
+        </div>
+      </Link>
   </div>
 </div>
+
 </div>
 </div>
+
     );
 }
