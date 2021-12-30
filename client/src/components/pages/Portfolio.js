@@ -52,7 +52,7 @@ export default function Portfolio() {
 
 
         <div className="column">
-<div className="card notification is-danger">
+<div className="card notification is-white">
   <div className="card-image">
     <figure className="image is-4by3">
     <a href="https://book-club-chicago.herokuapp.com">
@@ -94,7 +94,7 @@ export default function Portfolio() {
 
 
 <div className="column">
-<div className="card notification is-primary">
+<div className="card notification is-white">
   <div className="card-image">
     <figure className="image is-4by3">
     <a href="https://sthompsonchicago.github.io/Nonprofit-Career-Planner/">
@@ -134,7 +134,7 @@ export default function Portfolio() {
 
 
 <div className="column">
-<div className="card notification is-link">
+<div className="card notification is-white">
   <div className="card-image">
     <figure className="image is-4by3">
     <a href="https://still-refuge-81895.herokuapp.com/">
