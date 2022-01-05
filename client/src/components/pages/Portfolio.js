@@ -79,6 +79,10 @@ export default function Portfolio() {
       <br/>
     </div>
   </div>
+
+
+
+
 </div>
 
 
@@ -90,6 +94,8 @@ export default function Portfolio() {
 
 
 <div className="columns">
+
+  
 
 
 
@@ -137,6 +143,36 @@ export default function Portfolio() {
 <div className="card notification is-white">
   <div className="card-image">
     <figure className="image is-4by3">
+    <a href="https://vast-mountain-43651.herokuapp.com/">
+      <img src="https://sthompsonchicago.github.io/My_portfolio/assets/Mernblog.png" alt="Image of blog app"/>
+    </a>
+    </figure>
+  </div>
+
+
+<div className="column">
+    <div className="content">
+    <p className="title is-4 is-size-6-mobile">MERN Blog</p>
+    <p>This is a simple blog that allows a user to create an account, write blog posts and view posts by others. It is a full-stack application which was created with the MERN stack.
+    </p>
+    <ul>
+  
+                                <li><a href="https://vast-mountain-43651.herokuapp.com/">Link to deployed application.</a></li>
+
+                                <li><a href="https://github.com/SThompsonChicago/mern-blog">Link to GitHub repository.</a> </li>
+        
+                              </ul>
+      <br/>
+    </div>
+  </div>
+</div>
+
+
+
+{/* <div className="column">
+<div className="card notification is-white">
+  <div className="card-image">
+    <figure className="image is-4by3">
     <a href="https://still-refuge-81895.herokuapp.com/">
       <img src="https://sthompsonchicago.github.io/My_portfolio/assets/appimage.png" alt="Image of blog app"/>
     </a>
@@ -159,7 +195,7 @@ export default function Portfolio() {
       <br/>
     </div>
   </div>
-</div>
+</div> */}
 
 
 </div>
