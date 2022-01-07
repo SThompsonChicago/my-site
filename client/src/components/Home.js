@@ -5,6 +5,10 @@ const styles = {
   hov: {
     cursor: 'pointer',
   },
+  vertspace: {
+    marginTop:'25px',
+    marginBottom:'25px',
+  },
   space: {
     margin:"5px",
   },
@@ -23,10 +27,9 @@ const styles = {
 
 export default function Home() {
     return (
-      <div>
+      <div style={styles.vertspace}>
       
 
-<div className="card notification is-black" id="port">
         <div className="tile is-ancestor">
                 <div className="tile is-parent">
 
@@ -119,7 +122,6 @@ export default function Home() {
   </div>
 </div>
 
-</div>
 </div>
 
     );
