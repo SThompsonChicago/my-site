@@ -13,7 +13,7 @@ export default function Contact() {
 
 
                 <div className="content is-size-6-mobile">
-                    To get in touch, please <a href="mailto:s31@umbc.edu">email</a> me. 
+                    To get in touch, please <a href="mailto:drsgthompson@gmail.com">email</a> me at drsgthompson@gmail.com. 
                     </div>
 
                     <div className="content is-size-6-mobile">
