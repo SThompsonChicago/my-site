@@ -11,7 +11,12 @@ export default function Portfolio() {
     </p>
   </div>
 
-  <div class="tile is-ancestor">
+
+
+
+
+
+  <div class="tile is-ancestor is-link">
   <div class="tile is-parent">
     <article class="tile is-child box">
 
@@ -45,13 +50,14 @@ export default function Portfolio() {
     <div className="content">
           <p className="title is-4 is-size-6-mobile has-text-centered is-underlined">MVC BLOG</p>
         </div>
-
+        <div className="card notifcation is-black">
         <div className="card-image">
           <figure className="image is-4by3">
             <a href="https://still-refuge-81895.herokuapp.com/">
               <img src="https://sthompsonchicago.github.io/My_portfolio/assets/appimage.png" alt="Image of blog app"/>
             </a>
           </figure>
+        </div>
         </div>
 
 
@@ -71,22 +77,34 @@ export default function Portfolio() {
   </div>
 </div>
 
-  
-  <div className="columns">
-    <div className="column">
-      <div className="card notification is-white">
-        <div className="card-image">
+
+
+
+
+
+
+
+
+
+<div class="tile is-ancestor">
+  <div class="tile is-parent">
+    <article class="tile is-child box">
+
+          <div className="content">
+            <p className="title is-black is-4 is-size-6-mobile has-text-centered">EPIDEMIC SIMULATOR</p>
+          </div>
+<div className="card notifcation is-black">
+    <div className="card-image">
           <figure className="image is-4by3">
-            <a href="https://sthompsonchicago.github.io/pandemic-simulator/">
+          <a href="https://sthompsonchicago.github.io/pandemic-simulator/">
               <img src="https://sthompsonchicago.github.io/My_portfolio/assets/simulation.png" alt="Simulation image"/>
             </a>
           </figure>
         </div>
-
+</div>
         <div className="column">
           <div className="content">
-            <p className="title is-4 is-size-6-mobile">Epidemic Simulator</p>
-            <p>This is is a React application that allows the user to view an animation of an epidemic. The user can input a variety of different parameters and see how the results change. 
+          <p>This is is a React application that allows the user to view an animation of an epidemic. The user can input a variety of different parameters and see how the results change. 
             </p>
             <ul>
               <li><a href="https://sthompsonchicago.github.io/pandemic-simulator/">Link to deployed application.</a></li>
@@ -95,24 +113,27 @@ export default function Portfolio() {
             <br/>
           </div>
         </div>
-      </div>
-    </div>
-
-    <div className="column">
-      <div className="card notification is-white">
+    </article>
+  </div>
+  <div class="tile is-parent">
+    <article class="tile is-child box">
+    <div className="content">
+          <p className="title is-4 is-size-6-mobile has-text-centered is-underlined">BOOK TALK</p>
+        </div>
+        <div className="card notifcation is-black">
         <div className="card-image">
           <figure className="image is-4by3">
-            <a href="https://book-club-chicago.herokuapp.com">
+          <a href="https://book-club-chicago.herokuapp.com">
               <img src="https://sthompsonchicago.github.io/My_portfolio/assets/bookTalkPic.png" alt="Image of Book Talk app"/>
             </a>
           </figure>
+        </div>
         </div>
 
 
       <div className="column">
         <div className="content">
-          <p className="title is-4 is-size-6-mobile">Book Talk</p>
-          <p>This is a full stack web application that allows users upload and share book 
+        <p>This is a full stack web application that allows users upload and share book 
                               reviews with friends online. 
                               The aim is to make reading a more interactive and social experience.  
           </p>
@@ -123,9 +144,11 @@ export default function Portfolio() {
           <br/>
         </div>
       </div>
-    </div>
+
+    </article>
   </div>
 </div>
+
 
 
 <div className="columns">
