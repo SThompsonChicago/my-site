@@ -272,6 +272,62 @@ export default function Portfolio() {
 
 
 
+<div className="card-content notification is-black">
+    <p className="title is-4 is-size-6-mobile">
+      Python/Django apps
+    </p>
+  </div>
+
+
+
+<div class="tile is-ancestor">
+<div class="tile is-parent is-link">
+    <article class="tile is-child box">
+    <div className="box notification is-black">
+          <div className="content">
+            <p className="title is-black is-4 is-size-6-mobile has-text-centered">Python Simulation Space</p>
+          </div>
+          </div>
+        <div className="card notifcation is-black">
+        <div className="card-image">
+          <figure className="image is-4by3">
+          <a href="https://book-club-chicago.herokuapp.com">
+              <img src="https://sthompsonchicago.github.io/My_portfolio/assets/singwithsims.png" alt="Image of Book Talk app"/>
+            </a>
+          </figure>
+        </div>
+        </div>
+
+
+        <div  style={styles.vertspace} className="box">
+        <div className="content">
+        <p>This full-stack Python/Django application allows users to access a database containing simulations of different models. By clicking on a simulation, the user will be given options to choose parameter values, run the simulation, and then see the results. 
+          </p>
+          <ul>
+            <li><a href="https://singwithsims.herokuapp.com">Link to deployed application.</a></li>
+            <li><a href="https://github.com/SThompsonChicago/python-simulation-space">Link to GitHub repository.</a> </li>
+          </ul>
+          <br/>
+        </div>
+      </div>
+
+    </article>
+  </div>
+
+
+  
+  <div class="tile is-parent is-black">
+    
+  </div>
+</div>
+
+
+
+
+
+
+
+
 </div>
 
     );
