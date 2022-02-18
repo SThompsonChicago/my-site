@@ -316,8 +316,36 @@ export default function Portfolio() {
 
 
   
-  <div class="tile is-parent is-black">
-    
+  <div class="tile is-parent is-link">
+    <article class="tile is-child box">
+    <div className="box notification is-black">
+          <div className="content">
+            <p className="title is-black is-4 is-size-6-mobile has-text-centered">Government Debt Tracker</p>
+          </div>
+          </div>
+        <div className="card notifcation is-black">
+        <div className="card-image">
+          <figure className="image is-4by3">
+          <a href="https://github.com/SThompsonChicago/godley-lavoie-solver">
+              <img src="https://sthompsonchicago.github.io/My_portfolio/assets/fiscalpolicy.png" alt="Image of Book Talk app"/>
+            </a>
+          </figure>
+        </div>
+        </div>
+
+
+        <div  style={styles.vertspace} className="box">
+        <div className="content">
+        <p>This is a command-line interface that gives projected values for the ratio of government debt to gross domestic product, based on inputs provided by the user. Projections are given using the model in Wynne Godley and Marc Lavoie's paper 'Fiscal Policy in a Stock-Flow Consistent (SFC) Model', published in the Journal of Post Keynesian Economics (2007, vol. 30, no. 1).
+          </p>
+          <ul>
+            <li><a href="https://github.com/SThompsonChicago/godley-lavoie-solver">Link to GitHub repository</a> </li>
+          </ul>
+          <br/>
+        </div>
+      </div>
+
+    </article>
   </div>
 </div>
 
