@@ -9,8 +9,7 @@ export default function Resume() {
                             Resume
                         </p>
                 <p classname="subtitle is-size-6-mobile">
-                    A pdf version of my resume can be found <a href="https://sthompsonchicago.github.io/My_portfolio/assets/ThompsonResume.pdf" className="btn btn-primary">
-                    here</a>.
+                    I have a job and am not currently looking for a new one. But if you would like to request a copy of my resume, please contact me at drsgthompson@gmail.com. 
                     </p>
 
 
